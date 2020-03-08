@@ -1,0 +1,31 @@
+﻿@model LogoutViewModel
+
+@{
+	ViewBag.Title = "Вы уверены что хотите выйти з системы?";
+	Layout = "_Layout";
+}
+
+
+<div class="content">
+	<div class="row no-gutters h-100">
+		<div class="col-md-5 col-xl-6 d-none d-md-block picture-container">
+
+		</div>
+		<div class="col-12 col-md-7 col-xl-6 pt-5 pt-md-0 form-container">
+			<form asp-action="Logout">
+				<div class="text-center text-md-left">
+					<a href="~/">
+						<img class="form_logo" src="~/img/logo.png" alt="Logo"/>
+					</a>
+				</div>
+				<h4>@ViewBag.Title</h4>
+				<input type="hidden" name="logoutId" value="@Model.LogoutId"/>
+				<fieldset>
+					<div class="form-group">
+						<button class="btn btn-primary">Выйти</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>

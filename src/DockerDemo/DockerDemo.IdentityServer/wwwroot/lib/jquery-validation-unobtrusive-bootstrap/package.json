@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "jquery-validation-unobtrusive-bootstrap@2.2.0"
+    ]
+  ],
+  "_from": "jquery-validation-unobtrusive-bootstrap@2.2.0",
+  "_hasShrinkwrap": false,
+  "_id": "jquery-validation-unobtrusive-bootstrap@2.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jquery-validation-unobtrusive-bootstrap",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/jquery-validation-unobtrusive-bootstrap_2.2.0_1545169371338_0.014223409018820021"
+  },
+  "_npmUser": {
+    "email": "t.bremus@bremus-solutions.de",
+    "name": "brecons"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "jquery-validation-unobtrusive-bootstrap",
+    "raw": "jquery-validation-unobtrusive-bootstrap@2.2.0",
+    "rawSpec": "2.2.0",
+    "scope": null,
+    "spec": "2.2.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-validation-unobtrusive-bootstrap/-/jquery-validation-unobtrusive-bootstrap-2.2.0.tgz",
+  "_shasum": "5e357ff42f1274a5fedb5ffaa176802a8c9db494",
+  "_shrinkwrap": null,
+  "_spec": "jquery-validation-unobtrusive-bootstrap@2.2.0",
+  "author": {
+    "email": "t.bremus@bremus-solutions.de",
+    "name": "Timm Bremus"
+  },
+  "bugs": {
+    "url": "https://github.com/brecons/jquery-validation-unobtrusive-bootstrap/issues"
+  },
+  "dependencies": {},
+  "description": "Add-on to jQuery Validation to make unobtrusive validation compatible to Bootstrap v4.x.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 6,
+    "integrity": "sha512-T/b9oS4zuVNpnIeXOqZUCaZWNxne+9qQrpj1RRkFQ0wBbE6V/6CGbCANxy/KNOC31IDqekVYDEUwfbRzDpPL9Q==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcGWnbCRA9TVsSAnZWagAA2/IP/jqU3oVu4+SuqrH1WMkG\nFFY1eq6C7HFaKztYdqEUm+BmvXz+r5rdj2jucyd948aIlORQWo6VxZhMRmd5\nN01bSHnTi1nbjEPtBn/6JPM5fz4tAgxmRFVle7KHEsA1UjwTJnUkV/FY2lgS\nwT9BxsF1Ivh8HGpNZTNjD3qXoFDHrZWdZ2xXj0n5NveKWYcmJbhoTE45N8hg\nrK8HWbNlDYmr/IbXm6Ft5XXeeuoAkL5z1C2uXK1A7LYm1tvjwvNueDm1CdDC\n3r7HglbwhrSeMt8Mikt5s6TrCGq4QXgXbsUt9gPYCgBvZYZmSL8eFjofqsBA\n3Bnp+as+fKsSHwlg9cOmuEvgOSTOoqT/iS3SOOoA7Vo+jqoLx9Hy2PFYLpkS\nS4kkUHdJXcPgg/W/URQBqIduZ8uPDj3UfLCxl6hMWTsSyvboVtXqoxq876Bm\nAn4oy5GRntE5lG5qL7KKGjJf7FYnkXSaaO5M7GQu/LnYsrO5/tVYRRbElmhM\nsQ32Af/R1WfwptkEABy0EhK+9DhEVsDz4a9qUIaSEr6XVoQu4E5vrAylAG6C\npIoDBSpOnwhIazKNlWnC5fFSHoyaY3WrUq3/rO6DsDaS7mltHpKyJQRPqQ82\ns17l/6+clrTlbtVYbDhg2pi47pqUQWBet7P8B24Hpt8rr4dcwNLxKIuhn+S8\n8by7\r\n=tS5J\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "5e357ff42f1274a5fedb5ffaa176802a8c9db494",
+    "tarball": "https://registry.npmjs.org/jquery-validation-unobtrusive-bootstrap/-/jquery-validation-unobtrusive-bootstrap-2.2.0.tgz",
+    "unpackedSize": 4936
+  },
+  "homepage": "https://www.brecons.net/",
+  "license": "MIT",
+  "licenseText": "MIT License\n\nCopyright (c) 2017 Brecons\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "main": "dist/unobtrusive-bootstrap.js",
+  "maintainers": [
+    {
+      "name": "brecons",
+      "email": "t.bremus@bremus-solutions.de"
+    }
+  ],
+  "name": "jquery-validation-unobtrusive-bootstrap",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brecons/jquery-validation-unobtrusive-bootstrap.git"
+  },
+  "version": "2.2.0"
+}

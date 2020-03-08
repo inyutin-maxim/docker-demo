@@ -1,0 +1,34 @@
+/* Circe font */
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe/Circe-Bold.eot');
+	src: url('../fonts/circe/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/circe/Circe-Bold.woff2') format('woff2'),
+	url('../fonts/circe/Circe-Bold.woff') format('woff'),
+	url('../fonts/circe/Circe-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe/Circe-Light.eot');
+	src: url('../fonts/circe/Circe-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/circe/Circe-Light.woff2') format('woff2'),
+	url('../fonts/circe/Circe-Light.woff') format('woff'),
+	url('../fonts/circe/Circe-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe/Circe-Regular.eot');
+	src: url('../fonts/circe/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/circe/Circe-Regular.woff2') format('woff2'),
+	url('../fonts/circe/Circe-Regular.woff') format('woff'),
+	url('../fonts/circe/Circe-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

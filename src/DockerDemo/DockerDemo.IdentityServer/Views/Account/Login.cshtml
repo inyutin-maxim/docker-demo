@@ -1,0 +1,69 @@
+@model LoginViewModel
+
+@{
+	ViewBag.Title = "Вход в личный кабинет";
+	Layout = "_Layout";
+}
+
+<div class="content">
+	<div class="row no-gutters h-100">
+		<div class="col-md-5 col-xl-6 d-none d-md-block picture-container">
+
+		</div>
+		<div class="col-12 col-md-7 col-xl-6 pt-5 pt-md-0 form-container">
+			<form asp-action="Login" asp-controller="Account" method="post" class="form">
+				<div class="text-center text-md-left">
+					<a href="~/">
+						<img class="form_logo" src="~/img/logo.png" alt="Logo"/>
+					</a>
+				</div>
+
+				<h2 class="text-center text-md-left">@ViewBag.Title</h2>
+				<div class="form-group v-email">
+					<label class="form-group_label" asp-for="Email">Email</label>
+
+					<input type="text" value="@Model.Email" autocomplete="off" class="form-group_control" asp-for="Email"/>
+
+					<span asp-validation-for="Email"></span>
+				</div>
+
+				<div class="form-group">
+					<label class="form-group_label" asp-for="Password">Пароль</label>
+					<div class="form-group_password-input">
+						<input type="password" value="@Model.Password" autocomplete="off" asp-for="Password" class="form-group_control"/>
+						<button type="button" class="form-group_view-password-button">&nbsp;</button>
+					</div>
+					<span asp-validation-for="Password"></span>
+				</div>
+
+				<input type="hidden" asp-for="ReturnUrl">
+				<button type="submit" class="button mb-3">Войти</button>
+
+				<div class="row mb-5 mb-md-0 text-center">
+					<div class="col-12 col-sm-6 text-left mb-5 mb-md-0">
+						<div class="form-group_checkbox">
+							<input type="checkbox" asp-for="RememberMe"/>
+							<label asp-for="RememberMe">запомнить меня</label>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 text-sm-right my-3 my-md-0">
+						<a asp-action="ForgotPassword">Восстановить пароль</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+@section Scripts
+{
+	<script>
+	$(function() {
+	  $('label[for=RememberMe]').click(function(){
+	      var hiddenCheckbox = $('#RememberMe');
+
+      	  hiddenCheckbox.attr('value',!(hiddenCheckbox.attr('value') === 'true'))
+      	})
+	})
+	</script>
+}
